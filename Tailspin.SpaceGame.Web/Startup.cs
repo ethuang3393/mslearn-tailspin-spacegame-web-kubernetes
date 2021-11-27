@@ -41,7 +41,7 @@ namespace TailSpin.SpaceGame.Web
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseDeveloperExceptionPage();
-            
+            /*
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -51,6 +51,7 @@ namespace TailSpin.SpaceGame.Web
                 app.UseExceptionHandler("/Home/Error");
                 app.UseHsts();
             }
+            */
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
